@@ -18,10 +18,47 @@ let bolleanIsLoggedIn = Boolean(isLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
-// "nadim" => ture
+// "nadim" => true
 
 let someNumber = 33;
 
 let stringnumber = String(someNumber);
 console.log(stringnumber);
 console.log(typeof stringnumber);
+
+// ************************************ Operations **********************************************//
+
+let value = 3
+let nagvalue = -value
+// console.log(nagvalue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**2);
+// console.log(2/2);
+// console.log(2%2);
+
+let str1 = "md"
+let str2 = " nadim"
+
+let str3 = str1 + str2
+console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2");
+// console.log("1" + "2"); 
+// console.log("1" + 2 + 2);   // this is implicit conversion in js ye javascript automatically conversion kar deta hai
+// console.log(1 + 2 + "2");
+
+// console.log( (3 + 4) * 5 % 3);
+
+// console.log(+true);
+// console.log(+"");
+
+let num1, num2, num3
+num1 = num2 = num3 = 2 + 2
+
+let gamecounter = 150
+++gamecounter;
+console.log(gamecounter);
