@@ -43,3 +43,27 @@ const myfunctoin = function (s) {
 
 
 console.log(typeof heros);
+
+
+// ***********************************
+
+// Stack(primitive) and Heap(non-primitive)
+
+let myName = "nadim"
+let anothername = myName
+anothername = "alam"
+
+console.log(anothername);
+console.log(myName);
+
+let userOne = {
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "nadim@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
